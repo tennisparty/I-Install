@@ -3,9 +3,6 @@
 # Update package lists and upgrade installed packages
 sudo apt update && sudo apt full-upgrade -y
 
-# Install git
-sudo apt install git -y
-
 # Set WiFi country to GB (United Kingdom)
 sudo raspi-config nonint do_wifi_country GB
 
